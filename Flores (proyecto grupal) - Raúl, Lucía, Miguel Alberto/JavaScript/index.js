@@ -1,6 +1,6 @@
 function displayimg(box){
     
-    var floresimg = new Array(5)
+    var floresimg = new Array(5);
     
         floresimg[0]="imagenes/rosas_rojas.jpg";
          floresimg[1]="imagenes/rosas_rosas.jpg"; 
@@ -8,4 +8,4 @@ function displayimg(box){
          floresimg[3]="imagenes/rosas_blancas.jpg"; 
          floresimg[4]="imagenes/rosas_multi.jpg";
     
-             document.getElementById(´flores´).src=floresimg[parseInt(box.value)]}
+             document.getElementById(´flores´).src=floresimg[parseInt(box.value)];}

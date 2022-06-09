@@ -1,0 +1,54 @@
+*{margin: 0px; padding: 0px;}
+
+body{background-image: url(../Imagenes/803938-flower-wallpaper.jpg); background-size: cover; background-repeat: no-repeat}
+
+
+main{width: 800px; height: auto; position: absolute; top: 10%; left: 20%; background-color: white; float: left}
+
+
+.container{margin-left: 5px}
+    
+
+.container1{margin-left: 20px; margin-top: 15px}
+
+
+.container2{margin-left:20px; margin-top: 30px; margin-bottom: 30px; width: 350px; height: 70px}
+
+
+footer{text-align: center; background-image: url(../Imagenes/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg); margin-top: 550px}
+
+
+.imagenes{float: right; width: 400px}
+
+
+fieldset{background-color: rgba(122, 108, 108,0.1); margin-top: 5px}
+
+
+.name{margin-left: 50px}
+
+
+.apellido{margin-left: 50px}
+
+
+.telefono{margin-left: 50px}
+
+
+.email{margin-left: 50px}
+
+
+.container3{margin-left: 40px; margin-top: 15px; margin-bottom: 30px}
+
+
+.dedicatoria{text-align: center}
+
+
+.ramo{margin-bottom: 50px}
+
+
+.container4{margin-left: 40px; margin-top: 20px; margin-bottom: 30px; width: 320px; height: 30px}
+
+
+.botones{margin-top: 15px; margin-left: 100px}
+
+
+.reseteo{margin: 0px 10px}

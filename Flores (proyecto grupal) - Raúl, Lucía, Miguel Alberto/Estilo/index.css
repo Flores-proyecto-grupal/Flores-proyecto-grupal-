@@ -1,0 +1,76 @@
+*{margin: 0px; padding: 0px;}
+
+body{background-image: url(../Imagenes/803938-flower-wallpaper.jpg); background-size: cover; background-repeat: no-repeat}
+
+
+main{width: 900px; height: auto; position: absolute; top: 15%; left: 20%; float: left}
+
+
+.container{margin-left: 5px}
+    
+
+.container1{margin-left: 20px; margin-top: 15px}
+
+
+.container2{margin-left:20px; margin-top: 30px; margin-bottom: 30px; width: 350px; height: 70px}
+
+
+footer{background: rgba(34,34,34,0.40); margin-top: 870px; margin-left: 20%; margin-bottom: 15%; width: 900px; height: 50px; padding-top: 10px}
+
+
+
+.imagenes{float: right; width: 400px; background: rgba(128,139,150,0.40); color: whitesmoke}
+
+
+header{background: rgba(34,34,34,0.40); width: 900px; height: 50px; text-align: center; margin: 30px 20%}
+
+
+fieldset{margin-top: 5px}
+
+
+h1{text-align: center; color: azure; font-family:'Pacifico', cursive}
+
+
+h2{padding-top: 10px; text-align: center; padding-bottom: 10px}
+
+
+p{text-align: justify; padding: 10px 20px; margin-bottom: 10px}
+
+
+.pedido{position: absolute; width: 500px; background-color: white}
+
+
+.margenmain{background-color: aliceblue}
+
+
+.name{margin-left: 50px}
+
+
+.apellido{margin-left: 50px}
+
+
+.telefono{margin-left: 50px}
+
+
+.email{margin-left: 50px}
+
+
+.container3{margin-left: 40px; margin-top: 15px; margin-bottom: 30px}
+
+
+.dedicatoria{text-align: center}
+
+
+.ramo{margin-bottom: 50px}
+
+
+.container4{margin-left: 40px; margin-top: 20px; margin-bottom: 30px; width: 320px; height: 30px}
+
+
+.botones{margin: 33px 100px; padding: px}
+
+
+.reseteo{margin: 0px 10px}
+
+
+.parrafoFooter{color: aliceblue; text-align: center}

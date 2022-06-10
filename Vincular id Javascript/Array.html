@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    
+    <title>Array</title>
+    <meta charset="utf-8"> 
+    
+    
+    <style type="text/css">
+        
+        h1{text-align: center}
+        p{text-align: center}
+        h2{text-align: center}
+        
+        
+    
+        section{margin-left: 300px}
+        
+        
+        div{width: 200px; height: 200px; border: 2px black solid; margin: 20px; display: inline-block}  
+        
+        
+        #rojo{background-color: red}
+        
+        #amarillo{background-color: yellow}
+        
+        #verde{background-color: green}
+        
+        #azul{background-color: blue}
+        
+        
+        
+    </style>
+    
+     
+
+         
+    </head>
+    
+    
+    <body>
+        
+        
+     <h1>Te puedo decir dónde tienes el puntero del ratón:</h1>   
+        
+     <p>El ratón está ahora encima del siguiente cuadro:</p>   
+        
+    <h2 id="respuesta">ninguno</h2>
+        
+        
+        
+    <section>    
+    <div id="rojo" onmouseover="texto.innerHTML = colores[1]"
+        onmouseout="texto.innerHTML = colores[1]"></div>
+
+    <div id="amarillo" onmouseover="texto.innerHTML = colores[2]"
+        onmouseout="texto.innerHTML = colores[1]"></div>   
+        
+    <div id="verde" onmouseover="texto.innerHTML = colores[3]"
+        onmouseout="texto.innerHTML = colores[1]"></div>  
+    
+    <div id="azul" onmouseover="texto.innerHTML = colores[4]"
+        onmouseout="texto.innerHTML = colores[1]"></div>   
+    </section>    
+        
+        
+    <script>
+        
+        
+     var colores=["ninguno", "rojo", "amarillo", "verde", "azul"];
+        var texto= document.getElementById("respuesta");
+        
+        
+        </script>
+    
+    
+    
+    
+    </body>
